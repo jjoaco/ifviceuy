@@ -1,0 +1,39 @@
+body{
+     background: radial-gradient(#514a8d, #df0ecd);
+   }
+
+a{
+     color: #0d6efd;
+ }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+     color: #fff;
+     background-color: #0d6efd;
+ }   
+
+ h1 h2 h3 h4 h5{
+     color: white;
+ }
+
+.intro {
+	background-color: #ffc107;
+
+} 
+.section-intro{
+     padding: 80px;
+     background-color: #ffc107;
+     margin-top: 200px;
+     
+}
+.btn:hover, .btn:focus {
+	background-color: #0004ff;
+	color: #fff;
+}
+
+.bg-warning {
+     background-color: #ffc107!important;
+   }
+   .text-muted {
+     color: #6c757d!important;
+   }
+   
+   
