@@ -1,6 +1,4 @@
 
-
-
 .botonDarkMode{
   display: flex;
   justify-content:flex-end;
@@ -10,7 +8,7 @@
 .dot {
   color:rgb(255, 255, 255) ;
   margin-top: 0px;
-  margin-left: 10px;
+  margin-left: 5px;
   height: 25px;
   width: 25px;
   background-color: rgb(255, 255, 255);
@@ -111,7 +109,6 @@
   margin-right: 100px;
 }
 
-/* burbujas */
 
 .burbuja{
   border-radius: 50%;
