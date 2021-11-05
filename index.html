@@ -14,18 +14,16 @@
   </head>
   <body>
     <header class="navbar navbar-expand-lg navbar-dark bg-transparent">
-      
+      <!-- Imagen Carrito -->
       <ul
         class="nav nav-pills ms-auto container"
         id="pills-tab"
         role="tablist"
-      > 
- 
-      
+      >
         <li class="nav-item" role="presentation">
-        <a href="index.html"><img src="./img/logo.png" class="imagenLogo" alt=""></a>  
-        
+        <a href="index.html"><img src="./img/logo.png" class="imagenLogo" alt=""></a>   
         </li>
+        
         <li class="nav-item" role="presentation">
           <a
             class="nav-link"
@@ -41,16 +39,18 @@
          <a></a> 
         </li>
       </ul>
-      
+      <!-- Fin Imagen Carrito -->
     </header>
-
+  
+    <!-- Alertas Agregar Productos  -->
+    
     <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
     Producto Añadido al carrito!
     </div>
     <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
       Producto removido!
     </div>
-
+    <!-- Fin Alertas Agregar Productos  -->
     <div class="tab-content" id="pills-tabContent">
       <div
         class="tab-pane fade "
@@ -66,10 +66,14 @@
         role="tabpanel"
         aria-labelledby="pills-profile-tab"
       >
+
+      <!-- Boton DarkMode -->
       <section class="botonDarkMode">
-        <a id="theme"  class="btnDarkmode btnDarkmode-large" >Darkmode<span class="dot">.</span></a>
-        
+        <a id="theme"  class="btnDarkmode btnDarkmode-large" ><span class="darkMode">Darkmode</span> <span class="lightMode">Lightmode</span><span class="dot"><img class="darkMode" src="./img/dark.png" alt=""> <img class="lightMode" src="./img/light.png" alt=""></span></a>
       </section>
+      <!-- Fin Boton DarkMode -->
+      
+      <!-- Texto Principal -->
       <section class="banner contenedor">
         <secrion class="banner_title">
             <h1 data-aos="fade-up"data-aos-duration="1400">IFVICEUY</h1>
@@ -79,7 +83,9 @@
           <img data-aos="fade-up" data-aos-duration="1400" src="./img/logo.png" alt="">
       </div>
     </section>
+    <!-- Fin Texto Principal -->
 
+    <!-- Burbujas efecto -->
     <div class="burbujas">
         <div class="burbuja"></div>
         <div class="burbuja"></div>
@@ -95,6 +101,9 @@
       <div class="">
       </div>
     </section>
+    <!-- Fin  Burbujas efecto -->
+    
+    <!-- Seccion Quienes Somos -->
     <div data-aos="fade-down" data-aos-duration="1100">
     <section id="intro" class="section-intro">
         <div class="col-md-12 col-md-offset-2 text-center intro">
@@ -104,8 +113,11 @@
         </div>
     </section>
   </div>
+<!-- Fin Seccion Quienes Somos -->
+   
 
-  
+
+<!-- Productos -->
       <hr class="colorhr">
       <section id="productos">
         <h2 class="textoCentro">Nuestros Productos</h2>
@@ -219,9 +231,12 @@
           </div>
         </div>
       </div>
+      <!-- Fin Productos -->
     </section>
     </section>
-      <div
+      
+    <!-- Carrito -->
+    <div
         class="tab-pane fade carrito"
         id="pills-contact"
         role="tabpanel"
@@ -255,8 +270,9 @@
       
       </div>
     </div>
+<!-- Fin carrito -->
 
-
+<!-- Footer -->
     <footer style="margin-top:150px;">
       <div class="search-text"> 
           <div class="container">
@@ -293,17 +309,14 @@
         </div>
   </footer>
 </div>
-  
   <div class="copyright">
    <div class="container">
-     
        <div class="row text-center">
          <p>Copyright © 2021 All rights reserved IFVICEUY</p>
        </div>
-       
     </div>
   </div>
-
+<!-- Fin footer -->
 
 
 
