@@ -1,3 +1,13 @@
+.lightMode{
+     display: none;
+   }
+
+   .darkMode{
+     width: 20px;
+     height: 20px;
+     margin-left: 2px;
+     margin-bottom: 3px;
+   }
 body{
      background: radial-gradient(#514a8d, #df0ecd);
    }
